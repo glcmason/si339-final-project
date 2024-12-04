@@ -9,3 +9,9 @@ function artworkLink() {
 function photoLink() {
     window.location.href = 'photography.html'; // URL of the target page
 }
+
+function handleKey(event, link) {
+    if (event.key === 'Enter'|| event.keyCode === 13) {
+        link();
+    }
+}

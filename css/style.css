@@ -42,7 +42,7 @@ header {
 
 header, h1 {
     padding: 20px 20px;
-    font-size: 1.2rem;
+    font-size: 2rem;
     letter-spacing: 2px;
     margin: 0;
 }
@@ -68,7 +68,7 @@ nav li {
 nav a {
     color: white;
     text-decoration: none;
-    font-size: .7rem;
+    font-size: 1.5rem;
     padding: 10px 15px;
     border-radius: 5px;
 }
@@ -115,7 +115,7 @@ main {
 
 #intro p {
     justify-content: left;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     margin-bottom: 20px;
 }
 
@@ -143,6 +143,11 @@ main {
 
 }
 
+
+button:focus {
+    outline: 2px solid #ffffff; /* Highlight the element with a blue border */
+}
+
 /* styling content container */
 #container{
     background-color: #fff;
@@ -156,12 +161,16 @@ main {
     color: black;
 }
 
+#container:focus {
+    outline: 2px solid #000000;
+}
+
 /* styling header tags */
 h3, h4, h5, h6 {
     padding-left: 30;
     padding-top: 30;
     display: block;
-    font-size: larger;
+    font-size: 1.5rem;
 }
 
 /* styling grid */
@@ -237,7 +246,7 @@ p{
 
 }
 #about h2:nth-child(1) {
-    font-size: larger;
+    font-size: 1.5rem;
     color: #fff;
     grid-column: 1 / 3; /* First paragraph in the second column */
     grid-row: 1; /* Positioned in the first row */

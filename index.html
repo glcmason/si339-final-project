@@ -38,7 +38,7 @@
     
     
 
-<section id= "container" onclick="uxLink()">
+<section id= "container" tabindex="0" onclick="uxLink()" onkeydown="handleKey(event, uxLink)">
         <h3>
             UX DESIGN
         </h3>
@@ -48,7 +48,7 @@
     </section>
 </section>
 
-<section id= "container" onclick="artworkLink()">
+<section id= "container" tabindex="0" onclick="artworkLink()" onkeydown="handleKey(event, artworkLink)">
         <h4>
             ARTWORK
         </h4>
@@ -59,7 +59,7 @@
     </section>
 </section>
     
-<section id="container" onclick="photoLink()">
+<section id="container" tabindex="0" onclick="photoLink()" onkeydown = "handleKey(event, artworkLink)">
         <h5>
             PHOTOGRAPHY
         </h5>
@@ -78,9 +78,11 @@
 </body>
 
 <footer>
+<ul>
     <li><a href="index.html" class="button">HOME</a></li>
     <li><a href="about.html" class="button">ABOUT</a></li>
     <li><a href="https://www.linkedin.com/in/gracelucille-mason/" >LinkedIn</a></li>
+</ul>
     <p>
         glcmason@umich.edu
     </p>
